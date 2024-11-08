@@ -9,7 +9,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && \
     apt-get install -y \
     tzdata \
-    python3==3.9 \
+    python3.9.0 \
     python3-pip \
     python3-dev \
     git \
